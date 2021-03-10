@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Visualizar la evolución de UNA métrica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/plotly-1.58.4.min.js"></script>
+    <script src="lib/plotly-locale-es-latest.js"></script>
+
+    <!-- React: -->
+    <script src="lib/react.production.min.js"></script>
+    <script src="lib/react-dom.production.min.js"></script>
+    <script src="lib/create-plotly-component.min.js"></script>
+
+    <script src="plotMetric.js"></script>
+</head>
+<body>
+    <input type="file" accept="application/json">
+    <div id="plot"></div>
+    <div id="root"></div>
+    <script src="main.js"></script>
+</body>
+</html>
